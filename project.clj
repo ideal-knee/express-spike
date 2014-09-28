@@ -9,11 +9,13 @@
   :plugins [[lein-cljsbuild "1.0.3"]
             [lein-npm "0.4.0"] ]
   :source-paths []
-  :main "resources/express-spike.js"
 
   :cljsbuild {:builds [{:source-paths ["src"]
                         :compiler {:target :nodejs
                                    :output-to "resources/express-spike.js"
                                    :optimizations :simple
-                                   :pretty-print true } }]} )
+                                   :pretty-print true } }]}
+
+  :main "resources/express-spike.js"
+  :node-dependencies [] )
 
