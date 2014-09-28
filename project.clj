@@ -6,8 +6,10 @@
 
   :dependencies [[org.clojure/clojure "1.6.0"]
                  [org.clojure/clojurescript "0.0-2356"] ]
-  :plugins [[lein-cljsbuild "1.0.3"]]
+  :plugins [[lein-cljsbuild "1.0.3"]
+            [lein-npm "0.4.0"] ]
   :source-paths []
+  :main "resources/express-spike.js"
 
   :cljsbuild {:builds [{:source-paths ["src"]
                         :compiler {:target :nodejs
