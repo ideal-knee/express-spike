@@ -17,5 +17,5 @@
                                    :pretty-print true } }]}
 
   :main "resources/express-spike.js"
-  :node-dependencies [] )
+  :node-dependencies [[express "4.9.5"]] )
 
