@@ -2,7 +2,8 @@ Express Spike
 =============
 
 This demonstrates a basic starting point for developing an
-[Express](http://expressjs.com/) app using ClojureScript.
+[Express](http://expressjs.com/) app using
+[ClojureScript](https://github.com/clojure/clojurescript).
 
 Usage
 -----
@@ -21,3 +22,4 @@ Copyright © 2014 Dan Kee
 
 Distributed under the Eclipse Public License either version 1.0 or (at
 your option) any later version.
+
