@@ -13,6 +13,7 @@ On a Mac with [Homebrew](http://brew.sh/):
     $ brew install node
     $ brew install leiningen
 	$ lein deps
+	$ lein cljsbuild once
 	$ lein run
 
 License
